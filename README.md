@@ -1,12 +1,16 @@
-# Web Development Journey
+# 🌐 Web Development Journey
+
+## About Me
 
 Hi, I'm Aditi.
 
-This repository contains my Web Development learning journey.
+I am a B.Tech Artificial Intelligence & Data Science student.
 
-## Topics Covered
+I am learning Full Stack Web Development for placements.
 
-- HTML Basics
+## Topics Completed
+
+- HTML Introduction
 - Lists
 - Biography Page
 - Forms
@@ -14,3 +18,5 @@ This repository contains my Web Development learning journey.
 ## Goal
 
 Learn HTML → CSS → JavaScript → React → Full Stack Development.
+
+🚀 Learning one day at a time.
