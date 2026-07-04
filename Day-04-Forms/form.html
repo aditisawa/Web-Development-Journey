@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML FORM EXAMPLE</title>
+    </head>
+    <body>
+
+        <h1>University Registration Form </h1>
+
+        </h1>
+        <p> Please Fill out the form below: </p>
+        <hr>
+        <form>
+            <h2>Personal Details </h2>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+            <br><br>
+
+            <label for ="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <h3>Gender </h3>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <br><br>
+
+            <h3>
+                Upload your profile picture:
+                <input type="file" id="profile-picture" name="profile-picture" accept="image/*">
+            </h3>
+            <hr>
+
+            <h2>Contact Details</h2>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your   phone number" required>
+            <br><br>
+
+            <h2>Address</h2>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address" required></textarea>
+            <br><br>
+
+            <hr>
+            <h2>Course Selection</h2>
+            <label for="course">Select a course:</label>
+            <select id="course" name="course" required>
+                <option value="">--Please choose an option--</option>
+                <option value="computer-science">Computer Science</option>
+                <option value="business-administration">Business Administration</option>
+                <option value="psychology">Psychology</option>
+                <option value="engineering">Engineering</option>    
+            </select>
+            <br><br>
+            <h2>Additional Information</h2>
+            <label for="additional-info">Additional Information:</label>
+            <textarea id="additional-info" name="additional-info" rows="4" cols="50" placeholder="Enter any additional information"></textarea>
+            <br><br>
+
+            <hr>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button> 
+            
+
+        </form>
+    </body>
